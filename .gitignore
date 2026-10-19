@@ -1,33 +1,47 @@
-HELP.md
+# Compilación
 target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+build/
+out/
+*.class
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
+# IntelliJ
+.idea/
 *.iml
 *.ipr
+*.iws
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Eclipse / Spring Tool Suite
+.settings/
+.classpath
+.project
+.factorypath
+.springBeans
+.sts4-cache/
 
-### VS Code ###
+# Visual Studio Code
 .vscode/
+
+# Credenciales y configuración local
+.env*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# Logs y temporales
+*.log
+logs/
+tmp/
+temp/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ayuda generada
+HELP.md
